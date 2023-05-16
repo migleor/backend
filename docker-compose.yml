@@ -1,0 +1,13 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+    environment:
+      NODE_ENV: production
+      accessKeyId: ASIAQXY5S2ECAVMBIM5F
+      secretAccessKey: pmU4cJSA4/dM7H8Bidm4dkrBH32PeLVGeHI2rICV
+      sessionToken: FwoGZXIvYXdzEOz//////////wEaDDAwWYE/2MmHeheKcSLIAcgysod2sdsNw88735O1w83yuq5jmqc0XDcH+MCXwT7s/JH1joDip3QzZwvN6xxre2J4AsTDZeEzPWLXo0Mldxnvsx3GojXINCG+atE3a+2Awd0m6ibeUVff4+uaKEzEgBvJx0i36n/fBCvb2fk8Zhq5V7WZZbCRp4sRouDqsy3rCg2ImDqECwRnMNzSU0xpM+kVYYLX5bz1n5hUXqCenC3hFtVdfffrmb9w1vJsMkVcBmo+DVR+q8LQyZKtZbacsUQSXSPGzOHZKNbVhKMGMi32iJiy+vM6bTyeleAg9VqTfYaFqMlCueL5DGHd4f4La+6Ojn814LvzI4AFUTk=
+
+    restart: always
